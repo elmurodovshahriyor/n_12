@@ -1,0 +1,388 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+html{
+    font-family: "Poppins", sans-serif;
+}
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    max-width: 70%;
+    margin: 0 auto;
+   
+}
+nav{
+    height: 80px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+.nav_section{
+display: flex;
+gap: 50px;
+}
+.nav_section ul{
+    display: flex;
+    gap: 50px;
+}
+.nav_section li{
+   list-style: none;
+   
+}
+.nav_section a{
+    text-decoration: none;
+    color: black;
+}
+.hero{
+    display: flex;
+    justify-content: space-between;
+}
+.hero h1{
+    width: 450px;
+    height: 112px;
+    font-size: 40px;
+
+}
+.text{
+    width: 380px;
+    height: 46px;
+    color: #5D5656;
+
+}
+.hero button{
+    width: 204px;
+    height: 64px;
+    border-radius: 64px;
+    background-color: #DC3845;
+    color: #fff;
+}
+.gif{
+   text-align: center;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   margin-top: 72px;
+}
+.gif h1{
+    width: 205px;
+    height: 72px;
+    font-size: 24px;
+    color: #282525;
+    
+}
+.box_m{
+    display: flex;
+     width: 100%;
+     
+    
+    
+    justify-content: space-evenly;
+}
+.box_s{
+    width: 142px;
+    height: 208px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    animation-name: moveBOX;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate ;
+    animation-timing-function: linear;
+    
+    
+}   
+.box_s h1{
+    font-size: 20px;
+    text-align: center;
+}
+.box_s p{
+    font-size: 14px;
+    text-align: center;
+    color: #5D5656;
+}
+.extra{
+    display: none;
+}
+.hero h2{
+    font-size: 24px;
+}
+.text1{
+    width: 372px;
+    height: 96px;
+    font-size: 16px;
+    color: #5D5656;
+    }
+    .share{
+        text-align: center;
+        margin-top: 100px;
+    }
+.box {
+    margin-top: 50px;
+    display: grid;
+    grid-template-columns: repeat(3,200px);
+    grid-template-rows: repeat(2,247px);
+    gap: 40px;
+    justify-content: space-evenly;
+}
+.box div{
+   
+    text-align: start;
+    box-shadow: 1px 1px 1px 0px black;
+    animation-name: moveBOX;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate ;
+    animation-timing-function: linear;
+
+    
+}
+.share h1{
+    font-size: 24px;
+   
+}
+.box h1{
+    font-size: 20px;
+    margin-left: 20px;
+}
+.box p{
+    font-size: 14px;
+    margin-left: 20px;
+    color: #5D5656;
+}
+#img1{
+    margin-left: 80%;
+    margin-top: 10px;
+}
+#img2{
+    margin-left: 20%;
+}
+.new{
+    text-align: center;
+    margin-top: 100px;
+}
+.new h1{
+    font-size: 24px
+}
+.gifts{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 50px;
+    flex-wrap: wrap;
+}
+
+.box1{
+width: 230px;
+height: 160px;
+background-color: #DC3845;
+border-radius: 5% 5% 50% 50%;
+}
+.box2{
+    width: 230px;
+    height: 278px;
+     box-shadow: 1px 1px 1px 0px black;
+    text-align: center;
+    animation-name: moveBOX;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate ;
+    animation-timing-function: linear;
+}
+
+.box2 h1{
+    font-size: 20px;
+}
+.box2 p{
+    font-size: 16px;
+    color: #5D5656;
+}
+.btn{
+    margin-left: 83%;
+}
+.good{
+    margin-top: 100px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 968px;
+    height: 354px;
+    border-radius: 32px;
+    background-color: #DC3845;
+}
+.good h1{
+    font-size: 36px;
+    color: #fff;
+}
+.good input{
+    width: 264px;
+    height: 55px;
+    border-radius: 64px;
+    color: #5D5656;
+    border: none;
+    text-align: center;
+
+}
+.good button{
+    width: 175px;
+    height: 55px;
+    border-radius: 64px;
+    border: none;
+    color: #fff;
+    background-color: black;
+    
+}
+.footer_box{
+    text-align: center;
+    position: relative;
+}
+.box3{
+    margin-top: 150px;
+    display: flex;
+    justify-content: space-evenly;
+    text-align: center;
+}
+.box3 ul{
+   flex-direction: column;
+}
+.box3 li{
+    font-size: 15px;
+    list-style: none;
+    color: #5D5656;
+}
+.footer_box p{
+    margin-top: 100px;
+    font-size: 12px;
+    color: #918889;
+}
+.img1{position: absolute;
+left: 10%;
+top: 30%;}
+.img2{position: absolute;
+left: 90%;
+top: 10%;}
+button{
+    cursor: pointer;}
+
+
+
+@media(max-width:600px){
+    .container{
+        max-width: 90%;
+    }
+    .extra{
+        display: block;
+    }
+    .nav_section ul{
+        display: none;
+    }
+    .nav_section{
+        gap: 10px;
+    }
+    .hero{
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        
+        
+    }
+    .home{
+        width: 320px;
+        height: 282px;
+    
+}
+.hero h1{
+    width: 312px;
+    height: 68px;
+    font-size: 24px;
+    
+    
+}
+.hero p{
+    width: 250px;
+    height: 40px;
+    font-size: 13px;
+    
+    
+}
+.hero div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+.box_m{ 
+    display: grid;
+    grid-template-columns:repeat(2,142px);
+    grid-template-rows:repeat(2,176px);
+    grid-row-gap: 100px;
+}
+.text1{
+    width: 312px;
+    height: 115px;
+    font-size: 15px;
+}
+.rasm{
+    margin-top: 150px;
+}
+.box{
+    grid-template-columns: repeat(2,200px);
+    grid-template-rows: repeat(3,247px);
+    gap: 15px;
+}
+.boxx{
+    display: none;
+}
+.good{
+    flex-direction: column;
+    width: 100%;
+    height: 464px;
+    width: 0 auto;
+    text-align: center;
+}
+.good img{
+    width: 200px;
+    height: 137px;
+}
+.good h1{
+    font-size: 24px;
+}
+.box3{
+    flex-direction: column;
+    gap: 40px;
+   align-items: start;
+   text-align: start;
+    
+}
+.img2{
+    left: 70%;
+}
+.img1{
+    left: 50%;
+    top: 20%;
+}
+
+
+}
+button:hover{
+background-color: rgb(20, 77, 163);}
+.box_s:hover{
+    box-shadow: 1px 1px 10px 1px rgb(20, 77, 163);
+}
+.box div:hover{box-shadow: 1px 1px 10px 1px rgb(20, 77, 163);}
+.box2:hover{box-shadow: 1px 1px 10px 1px rgb(20, 77, 163);}
+a:hover{
+    color: red;
+}
+@keyframes moveBOX{
+    from{
+        transform: scale(1);
+    }
+    to{
+        transform: scale(1.05);
+    }
+}
